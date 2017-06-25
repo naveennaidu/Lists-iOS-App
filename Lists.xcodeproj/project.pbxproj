@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		7A4E7CC81EFE4E8C00799321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CC71EFE4E8C00799321 /* AppDelegate.swift */; };
-		7A4E7CCA1EFE4E8C00799321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CC91EFE4E8C00799321 /* ViewController.swift */; };
 		7A4E7CCD1EFE4E8C00799321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E7CCB1EFE4E8C00799321 /* Main.storyboard */; };
 		7A4E7CD01EFE4E8C00799321 /* Lists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CCE1EFE4E8C00799321 /* Lists.xcdatamodeld */; };
 		7A4E7CD21EFE4E8C00799321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E7CD11EFE4E8C00799321 /* Assets.xcassets */; };
 		7A4E7CD51EFE4E8C00799321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E7CD31EFE4E8C00799321 /* LaunchScreen.storyboard */; };
+		7A4E7CF61EFF8ADC00799321 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CEE1EFF8ADC00799321 /* Item+CoreDataClass.swift */; };
+		7A4E7CF71EFF8ADC00799321 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CEF1EFF8ADC00799321 /* Item+CoreDataProperties.swift */; };
+		7A4E7CF81EFF8ADC00799321 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF01EFF8ADC00799321 /* Store+CoreDataClass.swift */; };
+		7A4E7CF91EFF8ADC00799321 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF11EFF8ADC00799321 /* Store+CoreDataProperties.swift */; };
+		7A4E7CFA1EFF8ADC00799321 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF21EFF8ADC00799321 /* ItemType+CoreDataClass.swift */; };
+		7A4E7CFB1EFF8ADC00799321 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF31EFF8ADC00799321 /* ItemType+CoreDataProperties.swift */; };
+		7A4E7CFC1EFF8ADC00799321 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF41EFF8ADC00799321 /* Image+CoreDataClass.swift */; };
+		7A4E7CFD1EFF8ADC00799321 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7CF51EFF8ADC00799321 /* Image+CoreDataProperties.swift */; };
+		7A4E7D021EFF9B4A00799321 /* Tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E7D011EFF9B4A00799321 /* Tesla.jpg */; };
+		7A4E7D051EFF9BA800799321 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7D041EFF9BA800799321 /* MaterialView.swift */; };
+		7A4E7D071EFF9EDC00799321 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7D061EFF9EDC00799321 /* itemCell.swift */; };
+		7A4E7D091EFFA0A300799321 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E7D081EFFA0A300799321 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A4E7CC41EFE4E8C00799321 /* Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4E7CC71EFE4E8C00799321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A4E7CC91EFE4E8C00799321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A4E7CCC1EFE4E8C00799321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A4E7CCF1EFE4E8C00799321 /* Lists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lists.xcdatamodel; sourceTree = "<group>"; };
 		7A4E7CD11EFE4E8C00799321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A4E7CD41EFE4E8C00799321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A4E7CD61EFE4E8C00799321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4E7CEE1EFF8ADC00799321 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A4E7CEF1EFF8ADC00799321 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A4E7CF01EFF8ADC00799321 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A4E7CF11EFF8ADC00799321 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A4E7CF21EFF8ADC00799321 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A4E7CF31EFF8ADC00799321 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A4E7CF41EFF8ADC00799321 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A4E7CF51EFF8ADC00799321 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A4E7D011EFF9B4A00799321 /* Tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tesla.jpg; sourceTree = "<group>"; };
+		7A4E7D041EFF9BA800799321 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7A4E7D061EFF9EDC00799321 /* itemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		7A4E7D081EFFA0A300799321 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,58 @@
 		7A4E7CC61EFE4E8C00799321 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				7A4E7CC71EFE4E8C00799321 /* AppDelegate.swift */,
-				7A4E7CC91EFE4E8C00799321 /* ViewController.swift */,
+				7A4E7D081EFFA0A300799321 /* MainVC.swift */,
+				7A4E7D031EFF9B8500799321 /* View */,
+				7A4E7D001EFF8FDD00799321 /* Supporting Files */,
+				7A4E7CFF1EFF8E3A00799321 /* Model */,
 				7A4E7CCB1EFE4E8C00799321 /* Main.storyboard */,
-				7A4E7CD11EFE4E8C00799321 /* Assets.xcassets */,
-				7A4E7CD31EFE4E8C00799321 /* LaunchScreen.storyboard */,
-				7A4E7CD61EFE4E8C00799321 /* Info.plist */,
 				7A4E7CCE1EFE4E8C00799321 /* Lists.xcdatamodeld */,
 			);
 			path = Lists;
+			sourceTree = "<group>";
+		};
+		7A4E7CFE1EFF8AF000799321 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E7CEF1EFF8ADC00799321 /* Item+CoreDataProperties.swift */,
+				7A4E7CF11EFF8ADC00799321 /* Store+CoreDataProperties.swift */,
+				7A4E7CF31EFF8ADC00799321 /* ItemType+CoreDataProperties.swift */,
+				7A4E7CF51EFF8ADC00799321 /* Image+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		7A4E7CFF1EFF8E3A00799321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E7CEE1EFF8ADC00799321 /* Item+CoreDataClass.swift */,
+				7A4E7CF01EFF8ADC00799321 /* Store+CoreDataClass.swift */,
+				7A4E7CF21EFF8ADC00799321 /* ItemType+CoreDataClass.swift */,
+				7A4E7CF41EFF8ADC00799321 /* Image+CoreDataClass.swift */,
+				7A4E7CFE1EFF8AF000799321 /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7A4E7D001EFF8FDD00799321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E7D011EFF9B4A00799321 /* Tesla.jpg */,
+				7A4E7CC71EFE4E8C00799321 /* AppDelegate.swift */,
+				7A4E7CD11EFE4E8C00799321 /* Assets.xcassets */,
+				7A4E7CD31EFE4E8C00799321 /* LaunchScreen.storyboard */,
+				7A4E7CD61EFE4E8C00799321 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4E7D031EFF9B8500799321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E7D041EFF9BA800799321 /* MaterialView.swift */,
+				7A4E7D061EFF9EDC00799321 /* itemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A4E7CD51EFE4E8C00799321 /* LaunchScreen.storyboard in Resources */,
+				7A4E7D021EFF9B4A00799321 /* Tesla.jpg in Resources */,
 				7A4E7CD21EFE4E8C00799321 /* Assets.xcassets in Resources */,
 				7A4E7CCD1EFE4E8C00799321 /* Main.storyboard in Resources */,
 			);
@@ -140,9 +206,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4E7CCA1EFE4E8C00799321 /* ViewController.swift in Sources */,
+				7A4E7D071EFF9EDC00799321 /* itemCell.swift in Sources */,
+				7A4E7CF81EFF8ADC00799321 /* Store+CoreDataClass.swift in Sources */,
+				7A4E7CFB1EFF8ADC00799321 /* ItemType+CoreDataProperties.swift in Sources */,
+				7A4E7D051EFF9BA800799321 /* MaterialView.swift in Sources */,
 				7A4E7CC81EFE4E8C00799321 /* AppDelegate.swift in Sources */,
+				7A4E7CF61EFF8ADC00799321 /* Item+CoreDataClass.swift in Sources */,
+				7A4E7CFA1EFF8ADC00799321 /* ItemType+CoreDataClass.swift in Sources */,
+				7A4E7CF91EFF8ADC00799321 /* Store+CoreDataProperties.swift in Sources */,
 				7A4E7CD01EFE4E8C00799321 /* Lists.xcdatamodeld in Sources */,
+				7A4E7CF71EFF8ADC00799321 /* Item+CoreDataProperties.swift in Sources */,
+				7A4E7CFC1EFF8ADC00799321 /* Image+CoreDataClass.swift in Sources */,
+				7A4E7CFD1EFF8ADC00799321 /* Image+CoreDataProperties.swift in Sources */,
+				7A4E7D091EFFA0A300799321 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
