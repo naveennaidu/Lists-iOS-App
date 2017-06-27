@@ -78,10 +78,10 @@
 		7A4E7CC61EFE4E8C00799321 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				7A4E7D081EFFA0A300799321 /* MainVC.swift */,
-				7A4E7D031EFF9B8500799321 /* View */,
-				7A4E7D001EFF8FDD00799321 /* Supporting Files */,
 				7A4E7CFF1EFF8E3A00799321 /* Model */,
+				7A4E7D031EFF9B8500799321 /* View */,
+				7A4E7D081EFFA0A300799321 /* MainVC.swift */,
+				7A4E7D001EFF8FDD00799321 /* Supporting Files */,
 				7A4E7CCB1EFE4E8C00799321 /* Main.storyboard */,
 				7A4E7CCE1EFE4E8C00799321 /* Lists.xcdatamodeld */,
 			);
@@ -382,6 +382,7 @@
 				7A4E7CDB1EFE4E8C00799321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
